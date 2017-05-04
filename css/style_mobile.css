@@ -1,0 +1,281 @@
+
+
+
+.clearall{
+     clear:both;
+}
+
+@font-face{
+	font-family:"Latoreg";
+	src: url('../fonts/Lato-Regular.ttf');
+	}
+@font-face{
+	font-family:"Latobol";
+	src: url('../fonts/Lato-Bold.ttf');
+	}
+@font-face{
+	font-family:"Variane";
+	src: url('../fonts/Variane Script.ttf');
+	}
+@font-face{
+	font-family:"Airways";
+	src: url('../fonts/Airways_PERSONAL_USE_ONLY.ttf');
+	}
+
+a:hover , a:active{
+
+}
+
+
+@media only screen and (min-width:150px) and (max-width: 1000px){
+
+
+#logo img{
+	width: 132px;
+	margin-top: 6%;
+}
+
+
+#nav ul li{
+	margin-top:2%;
+}
+
+#name p{
+	font: 500% "Latoreg",Arial, Helvetica, Geneva, sans-serif;
+	text-shadow: 2px 2px 2px #C8C8C8;
+	
+}
+
+
+#tag p{
+	font: 155% "Latoreg",Arial, Helvetica, Geneva, sans-serif;
+	
+}
+
+
+.burger-nav{
+	display:block;
+	height:40px;
+	width:100%;
+	background: url(../images/icons/burger.png) no-repeat 98% center;
+	padding:1px;
+	cursor:pointer;
+} 
+
+#nav ul{
+	overflow: hidden;
+	height:0;
+}
+#nav ul li{
+	float:left;
+	text-align:left;
+	width:95%;
+	margin-top:2px;
+	border:1px solid white;
+	padding:15px;
+	border-radius:10px;
+	margin-top:1%;
+}
+#nav ul li a{
+	color:#fff;
+	padding:10px;
+	margin:0;
+}
+
+#nav ul.open{
+	height:auto;
+}
+
+.line{
+	width:46%;
+	height:1px;
+	background-color:#2e2e2e;
+	position:relative;
+	margin:auto;
+	min-width: 159px;
+}
+
+
+
+#content_section h1{
+    min-width:350px;
+    padding-top: 25%;
+    text-align:center;
+    font: 500% "Latobol",Arial, Helvetica, Geneva, sans-serif;
+}
+#content_section p{
+	padding: 2% 12%;
+    text-align:justify;
+    font: 200% "Latoreg",Arial, Helvetica, Geneva, sans-serif;
+}
+
+#mywork h1{
+	min-width:350px;
+    padding-top: 1%;
+    text-align:center;
+    font: 500% "Latobol",Arial, Helvetica, Geneva, sans-serif;
+}
+
+#resume{
+	width: 80%;
+    height: 13vw;
+	border-radius:10px;
+	display: block;
+	margin: 2% auto 0 auto;
+}
+
+#resume p{
+	color:#f8f8f8;
+	text-align:center;
+	font: 400% "Latoreg",Arial, Helvetica, Geneva, sans-serif;
+	padding-top:2%;
+}
+
+#portfolio{
+	width: 80%;
+    height: 13vw;
+	border-radius:10px;
+	display: block;
+	margin: 25% auto 0 auto;
+}
+
+#portfolio p{
+	color:#f8f8f8;
+	text-align:center;
+	font: 400% "Latoreg",Arial, Helvetica, Geneva, sans-serif;
+	padding-top:2%;
+}
+
+form{
+width:80%;
+margin:8% 7%;
+}
+
+header h2{
+	font: 500% "Latobol",Arial, Helvetica, Geneva, sans-serif;
+}
+
+#envelope label{
+	font: 200% "Latoreg",Arial, Helvetica, Geneva, sans-serif;
+}
+/* Makes responsive fields. Sets size and field alignment.*/
+
+input[type=submit]
+{
+
+font-size:30px;
+}
+
+
+#socialicons{
+
+    width: 364px;
+    margin-left: auto;
+	height: 100px;
+}
+#socialicons li{
+	float:left;
+	margin:3%;
+}
+#socialicons img{
+	width:100%;
+}
+
+
+/*________________________________________________________________________________*/
+
+/*Blog*/
+
+#blog_content{
+	width:90%;
+	margin:auto;
+	font: 220% "Latoreg",Arial, Helvetica, Geneva, sans-serif;
+	padding:1%;
+        line-height:1.7;
+}
+/*________________________________________________________________________________*/
+/*portfolio*/
+
+#welcome2{
+	width:100%;
+	background-color:#3498db;
+	opacity:0.8;
+	padding: 1px 0px 33px 0px;
+}
+#welcome2 p{
+	color:#f8f8f8;
+	padding-left:3%;
+	font: 50px "Latobol",Arial, Helvetica, Geneva, sans-serif;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+}
+
+#welcome2 a{
+	text-decoration:none;
+	width:100%;
+	padding-top: 11%;
+}
+
+#nav a p{
+	font: 40px "Latoreg",Arial, Helvetica, Geneva, sans-serif;
+	margin: 1% 14%;
+}
+
+#workcontainer {
+    width:90%;
+    margin: 0% auto;
+}
+
+#Clients{
+	width: 100%;
+	margin: 15% auto;
+	box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.12);
+	border-radius:7px;	
+	float:none;
+}
+#Clients:hover{
+	box-shadow:0px 0px 5	px 1px rgba(0,0,0,0.12);
+}
+#Client_info{
+	float: none;
+	width: 100%;	
+		
+}
+#Client_info h2{
+	font: 300% "Latobol",Arial, Helvetica, Geneva, sans-serif;
+	text-align:center;	
+}
+
+#Client_info p{
+	font-size:0px;	
+}
+
+#Client_logo{
+	float:none;
+	margin:auto;
+	width: 100%;
+}
+
+#Client_logo img{
+	height: 500px;
+	padding-top: 0%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

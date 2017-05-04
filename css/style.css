@@ -1,0 +1,511 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a { color: black; text-decoration: none; /* no underline */ }
+
+.clearall{
+     clear:both;
+}
+
+@font-face{
+	font-family:"Latoreg";
+	src: url('../fonts/Lato-Regular.ttf');
+	}
+@font-face{
+	font-family:"Latobol";
+	src: url('../fonts/Lato-Bold.ttf');
+	}
+@font-face{
+	font-family:"Variane";
+	src: url('../fonts/Variane Script.ttf');
+	}
+@font-face{
+	font-family:"Airways";
+	src: url('../fonts/Airways_PERSONAL_USE_ONLY.ttf');
+	}
+
+a:hover , a:active{
+
+}
+
+
+
+#logo img{
+	width:90px;
+	margin-top:-25%
+}
+
+#nav{
+	width:100%;	
+	margin: 1% 0 1% 0;
+}
+#nav p{
+	text-align:center;
+	float:left;
+	color:white;
+}
+#nav a p{
+	font: 26px "Latoreg",Arial, Helvetica, Geneva, sans-serif;
+	margin:0.5%;
+}
+
+#nav ul {
+	width:100%;
+	text-align:center;
+	margin:auto;
+}
+
+#top{
+	position:fixed;
+	bottom:2%;
+	right:2%;
+}
+#top img{
+	width:80px;
+}
+
+#welcome{
+
+	width:100%;
+	background-color:#2e2e2e;
+	padding:20px 0px 20px 0px;
+}
+#welcome p{
+        color:white;
+	text-align:center;
+	font: 23px "Latoreg",Arial, Helvetica, Geneva, sans-serif;
+	letter-spacing: 7px;
+	word-spacing: 12px;
+}
+
+
+#intropage{
+	width:100%;
+	height:100%;
+	background: url(../images/background2.jpg) no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+	
+}
+
+
+#name{
+	position: relative;
+	width:100%;
+	text-align:center;
+	padding-top:10%;
+}
+#tag{
+	position: relative;
+	width:100%;
+	padding-bottom: 21.2%;
+	text-align:center;
+}
+#name p{
+	font: 700% "Latoreg",Arial, Helvetica, Geneva, sans-serif;
+	text-shadow: 2px 2px 2px #C8C8C8;
+	;
+}
+
+
+#tag p{
+	font: 220% "Latoreg",Arial, Helvetica, Geneva, sans-serif;
+	
+}
+
+.line{
+	width:39%;
+	height:0.5px;
+	background-color:#2e2e2e;
+	position:relative;
+	margin:auto;
+	min-width: 159px;
+}
+
+#about_me{
+	width:100%;
+	padding-top: 8%;
+	
+}
+#image_section{
+	height:100%;
+	width:100%;
+	float:left;
+	display:inline;
+}
+#image_section img{
+	width:30em;  
+    vertical-align:bottom;
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#content_section{
+	height:100%;
+	width:100%;
+	margin-bottom: 7%;
+}
+#content_section h1{
+    min-width:350px;
+    padding-top: 25%;
+    text-align:center;
+    font: 320% "Latobol",Arial, Helvetica, Geneva, sans-serif;
+}
+#content_section p{
+	padding: 2% 28%;
+    text-align:left;
+    font: 160% "Latoreg",Arial, Helvetica, Geneva, sans-serif;
+    line-height:1.5;
+    color: #595959;
+}
+
+#mywork{
+	overflow:auto;
+	background-repeat: no-repeat;
+	width:100%;
+	height:100%;
+	padding:1% 0% 10% 0%;
+	background: url(../images/portfoliobackground.jpg) no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+#mywork h1{
+	min-width:350px;
+    padding-top: 1%;
+    text-align:center;
+    color:white;
+    font: 320% "Latobol",Arial, Helvetica, Geneva, sans-serif;
+}
+
+#mywork2{
+	width: 100%;
+	background-color: #f8f8f8;
+	overflow: auto;
+	background-repeat: no-repeat;
+	padding: 7% 0%;
+}
+
+#mywork2 h1{
+	min-width:350px;
+    padding-top: 1%;
+    text-align:center;
+    font: 320% "Latobol",Arial, Helvetica, Geneva, sans-serif;
+}
+#resume{
+	width: 30vw;
+    height: 6vw;
+	display: block;
+	margin: 1% auto 0 auto;
+	border-radius:7px;
+	background-color: #e67e22;
+	
+}
+#resume:hover{
+	background-color:#000;
+}
+
+#resume a{
+	text-decoration:none;
+}
+#resume p{
+	color:#f8f8f8;
+	text-align:center;
+	font: 300% "Latoreg",Arial, Helvetica, Geneva, sans-serif;
+	padding-top:3%;
+}
+#portfolio{
+	width: 30vw;
+    height: 6vw;
+	display: block;
+	margin: 25% auto 0 auto;
+	border-radius:7px;
+	background-color: #3498db;
+	
+}
+#portfolio:hover{
+	background-color:#000;
+}
+
+#portfolio a{
+	text-decoration:none;
+}
+#portfolio p{
+	color:#f8f8f8;
+	text-align:center;
+	font: 300% "Latoreg",Arial, Helvetica, Geneva, sans-serif;
+	padding-top:3%;
+}
+
+#envelope{
+width: 100%;
+padding:10px 0;
+}
+
+#envelope form{
+	margin:auto;
+}
+
+form{
+width:70%;
+margin:8% 15%;
+}
+
+
+header{
+text-align: center;
+padding-top: 12px;
+padding-bottom: 8px;
+border-radius: 10px 10px 0 0;
+}
+header h2{
+	font: 320% "Latobol",Arial, Helvetica, Geneva, sans-serif;
+}
+
+#envelope label{
+	font: 150% "Latoreg",Arial, Helvetica, Geneva, sans-serif;
+}
+/* Makes responsive fields. Sets size and field alignment.*/
+input[type=text]{
+margin-bottom: 20px;
+margin-top: 10px;
+width:100%;
+padding: 15px;
+border-radius:5px;
+border:1px solid #7ac9b7;
+
+}
+input[type=submit]
+{
+margin-bottom: 20px;
+width:100%;
+padding: 15px;
+border-radius:5px;
+border:1px solid #7ac9b7;
+background-color: #4180C5;
+color: aliceblue;
+font-size:15px;
+margin:1.2%;
+cursor:pointer;
+}
+#submit:hover
+{
+background-color: black;
+}
+textarea{
+width:100%;
+padding: 15px;
+margin-top: 10px;
+border:1px solid #7ac9b7;
+border-radius:5px;
+margin-bottom: 20px;
+resize:none;
+}
+input[type=text]:focus,textarea:focus {
+border-color: #4697e4;
+}
+
+#footer{
+	width:100%;
+	background-color:#2e2e2e;
+	padding:100px 0px 100px 0px;
+	text-align:center;
+	display: inline-block;
+	margin-top:10%;
+}
+
+
+#socialicons{
+
+    width: 278px;
+    margin: auto;
+    height: 50px;
+}
+#socialicons li{
+	float:left;
+}
+#socialicons img{
+	width:60%;
+	margin 0px 10px;
+}
+
+/*________________________________________________________________________________*/
+
+#undercons{
+	width:50%;
+	height:200px;
+	margin:10em 25%;
+	position:relative;
+	float:left;
+	background:#fff;
+	box-shadow:0px 10px 20px 0px rgba(0,0,0,0.12);
+	border-radius:7px;
+	padding:2em
+	
+}
+#undercons h1{
+	text-align:center;
+    font: 300% "Latoreg",Arial, Helvetica, Geneva, sans-serif;
+    padding-top:10%;
+}
+
+/*___________________________________________________________________________________*/
+/*blog*/
+
+
+#blog_content{
+	width:60%;
+	margin:auto;
+	font: 120% "Latoreg",Arial, Helvetica, Geneva, sans-serif;
+	padding:1%;
+        line-height:1.7;
+}
+
+.blog_bold{
+	font-weight:bold;
+	 /*font: 100% "Latobol",Arial, Helvetica, Geneva, sans-serif;*/
+	
+}
+.blog_header{
+	font: 100% "Latobol",Arial, Helvetica, Geneva, sans-serif;
+	font-size:120%;
+}
+.blog_answer{
+	padding-left:19px;
+	color:#575757;
+}
+.blog_image{
+	width:100%;
+	margin:auto;
+}
+.blog_image img{	
+	width: 98%;
+	margin: 2%;
+}
+
+
+/*__________________________________________________________________________________*/
+
+/*portfolio*/
+
+
+
+#welcome2{
+	width:100%;
+	background-color:#3498db;
+	padding:37px 0px 80px 0px;;
+}
+#welcome2 p{
+	color:#fff;
+	padding-left:3%;
+	font: 23px "Latobol",Arial, Helvetica, Geneva, sans-serif;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	float:left;
+}
+#welcome2 p:hover {
+	color:#dbdbdb;
+}
+#welcome2 a{
+	text-decoration:none;
+	width:200px;
+}
+
+#workcontainer {
+	
+
+    width:85%;
+    margin: 0% auto;
+}
+
+#Clients{
+	width:46%;
+	
+	margin:2%;
+	box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.12);
+	float:left;
+	display:block;
+	text-align:center;
+	border-radius:7px;	
+}
+#Clients:hover{
+	box-shadow:0px 0px 5px 1px rgba(0,0,0,0.5);
+	text-decoratoin: 
+}
+#Client_info{
+	margin: 3% 2% 2% 2%;	
+}
+#Client_info h2{
+	font: 300% "Latobol",Arial, Helvetica, Geneva, sans-serif;
+}
+
+#Client_info p{
+	font: 100% "Latoreg",Arial, Helvetica, Geneva, sans-serif;
+	padding-top: 5%;	
+}
+
+#Client_logo{
+	width:100%;
+	float:right;
+}
+
+#Client_logo img{
+	
+	height: 350px;
+	margin:1%;
+}
+
+
+
